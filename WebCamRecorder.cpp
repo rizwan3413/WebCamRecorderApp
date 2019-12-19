@@ -7,7 +7,7 @@ using namespace cv;
 int main() {
  
     // Create a VideoCapture object and use camera to capture the video
-    VideoCapture cap(1); 
+    VideoCapture cap(0); 
  
     // Check if camera opened successfully
     if(!cap.isOpened())
